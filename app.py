@@ -100,16 +100,15 @@ if st.session_state.step == "screen_1":
     col1, col2 = st.columns(2)
     with col1:
         if st.button("길소명을 믿기", key="btn_left", use_container_width=True):
+            placeholder.empty()
             st.session_state.step = "screen_2_1_text"
             st.rerun()
     with col2:
         if st.button("명소민을 믿기", key="btn_right", use_container_width=True):
+            placeholder.empty()
             st.session_state.step = "screen_2_2"
             st.rerun()
 
-def change_step(next_step):
-    screen.empty()  # 이전 화면(첫 번째 이미지 및 선택지 창) 즉시 삭제
-    st.session_state.step = next_step
 # ==========================================
 # 2-1. 두 번째 화면 (두 번째 이미지 클릭 시)
 # ==========================================
