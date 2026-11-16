@@ -100,12 +100,10 @@ if st.session_state.step == "screen_1":
     col1, col2 = st.columns(2)
     with col1:
         if st.button("길소명을 믿기", key="btn_left", use_container_width=True):
-            placeholder.empty()
             st.session_state.step = "screen_2_1_text"
             st.rerun()
     with col2:
         if st.button("명소민을 믿기", key="btn_right", use_container_width=True):
-            placeholder.empty()
             st.session_state.step = "screen_2_2"
             st.rerun()
 
