@@ -160,9 +160,9 @@ elif st.session_state.step == "screen_3_1":
     set_bg_color("#000000")
     placeholder.markdown(
         render_centered_text(
-            "나는 소민이에게 주스팩을 버리는 것이 좋을 거라고 조언했다.\n"
-            "소민이는 잠시 고민하다가 주스팩을 복일천 공원에 던졌다.\n"
-            "뒤돌아가는 소민이의 모습이 어쩐지 쓸쓸해 보였다."
+            "나는 소명이에게 주스팩을 버리는 것이 좋을 거라고 조언했다.\n"
+            "소명이는 잠시 고민하다가 주스팩을 복일천 공원에 던졌다.\n"
+            "뒤돌아가는 소명이의 모습이 어쩐지 쓸쓸해 보였다."
         ),
         unsafe_allow_html=True
     )
@@ -172,8 +172,8 @@ elif st.session_state.step == "screen_3_2":
     set_bg_color("#000000")
     placeholder.markdown(
         render_centered_text(
-            "나는 소민이에게 주스팩을 경찰서에 다시 가져가라고 조언했다.\n"
-            "소민이는 손을 떨고 있었지만 끝까지 진술을 해냈다.\n"
+            "나는 소명이에게 주스팩을 경찰서에 다시 가져가라고 조언했다.\n"
+            "소명이는 손을 떨고 있었지만 끝까지 진술을 해냈다.\n"
             "이후 명진이의 죽음에 대한 재수사가 시작되었다."
         ),
         unsafe_allow_html=True
