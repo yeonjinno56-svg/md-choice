@@ -107,6 +107,10 @@ if st.session_state.step == "screen_1":
             st.session_state.step = "screen_2_2"
             st.rerun()
 
+def change_step(next_step):
+    
+    screen.empty()  # 이전 화면(첫 번째 이미지 및 선택지 창) 즉시 삭제
+    st.session_state.step = next_step
 # ==========================================
 # 2-1. 두 번째 화면 (두 번째 이미지 클릭 시)
 # ==========================================
